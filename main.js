@@ -28,7 +28,7 @@ scene.add(dirLight);
 // 4. Tải mô hình GLB
 const loader = new GLTFLoader();
 loader.load(
-  './models/sample_item.glb',
+  './models/mannequin1.glb',
   (gltf) => {
     scene.add(gltf.scene);
   },
